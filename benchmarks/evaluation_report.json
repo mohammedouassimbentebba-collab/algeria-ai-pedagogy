@@ -1,0 +1,463 @@
+{
+  "generated_at": "2026-10-30 20:39:51",
+  "total_scenarios": 14,
+  "baseline_passed_count": 0,
+  "baseline_average_score": 22.0,
+  "passed_count": 14,
+  "pass_rate_percent": 100.0,
+  "average_score": 98.6,
+  "net_skill_gain": 76.6,
+  "adversarial_tests_passed": 5,
+  "adversarial_tests_total": 5,
+  "adversarial_results": [
+    {
+      "test_id": "ADV-01",
+      "name": "كشف ورفض النسخ الحرفي في التلخيص (Verbatim 3-gram Copy Detection)",
+      "passed": true,
+      "details": "نسبة التطابق الثلاثي: 100% -> النقاط الممنوحة للأسلوب الشخصي: 0.0 / 1.50"
+    },
+    {
+      "test_id": "ADV-02",
+      "name": "رفض التلخيص المخل بشرط الحجم الوزاري (100% Uncompressed Ratio Rejection)",
+      "passed": true,
+      "details": "الحالة: غير مطابق (إخلال صريح بشرط الحجم الوزاري 20%-35%) -> النقاط الممنوحة للحجم: 0.0 / 1.00"
+    },
+    {
+      "test_id": "ADV-03",
+      "name": "فحص تفكك الترابط الدلالي وضغط الجمل غير المترابطة (Zero-Cohesion Detection)",
+      "passed": true,
+      "details": "نسبة الضغط: 31.2% | تنبيه الترابط: تنبيه دلالي: الجمل المدخلة ضعيفة الترابط الموضوعي فيما بينها (Cohesion = 0.0)، لذا تم انتقاء القضية المركزية الأعلى كثافة."
+    },
+    {
+      "test_id": "ADV-04",
+      "name": "خصم النقاط عند استعمال قاعدة لوبيتال أو الرموز المشرقية (س، ص)",
+      "passed": true,
+      "details": "الخصومات المرصودة: 4 (خصم 0.5 ن: لعدم استيفاء «حساب النهاية الأولى مع التبرير الرياضي (تزايد مقارن أو نهاية شهيرة)». | خصم 0.5 ن: لعدم استيفاء «حساب النهاية الثانية مع التبرير الرياضي والتفسير البياني للمستقيم المقارب».)"
+    },
+    {
+      "test_id": "ADV-05",
+      "name": "خصم 0.25 ن عند إهمال الوحدة الدولية في النتيجة الفيزيائية",
+      "passed": true,
+      "details": "العلامة بعد الخصم: 1.5/2.0 | الخصم: ['خصم 0.25 ن وزاري: إهمال كتابة الوحدة الدولية بعد القيمة العددية في النتيجة الفيزيائية.']"
+    }
+  ],
+  "detailed_results": [
+    {
+      "id": "BENCH-MATH-01",
+      "subject": "الرياضيات",
+      "stream": "شعبة علوم تجريبية",
+      "passed": true,
+      "total_score": 100.0,
+      "criteria_scores": {
+        "c1_forbidden_terms_compliance": 100.0,
+        "c2_mandatory_terms_coverage": 100.0,
+        "c3_socratic_scaffolding": 100.0,
+        "c4_onec_bac_grounding": 100.0,
+        "c5_active_recall_spaced_schedule": 100.0
+      },
+      "diagnostics": {
+        "forbidden_terms_flagged": [],
+        "mandatory_terms_matched": [
+          "مبرهنة القيم المتوسطة",
+          "م.ق.م",
+          "مستمرة",
+          "رتيبة تماماً",
+          "يقطع محور الفواصل"
+        ],
+        "mandatory_terms_missing": [],
+        "bac_paired_citations": []
+      },
+      "baseline_score": 0.0,
+      "skill_gain": 100.0
+    },
+    {
+      "id": "BENCH-SCI-02",
+      "subject": "علوم الطبيعة والحياة",
+      "stream": "شعبة علوم تجريبية",
+      "passed": true,
+      "total_score": 95.0,
+      "criteria_scores": {
+        "c1_forbidden_terms_compliance": 100.0,
+        "c2_mandatory_terms_coverage": 80.0,
+        "c3_socratic_scaffolding": 100.0,
+        "c4_onec_bac_grounding": 100.0,
+        "c5_active_recall_spaced_schedule": 100.0
+      },
+      "diagnostics": {
+        "forbidden_terms_flagged": [],
+        "mandatory_terms_matched": [
+          "المسعى العلمي",
+          "استغلال الوثيقة",
+          "التحليل",
+          "الاستنتاج"
+        ],
+        "mandatory_terms_missing": [
+          "التعريف بالوثيقة"
+        ],
+        "bac_paired_citations": []
+      },
+      "baseline_score": 0.0,
+      "skill_gain": 95.0
+    },
+    {
+      "id": "BENCH-PHYS-03",
+      "subject": "العلوم الفيزيائية",
+      "stream": "شعبة رياضيات وتقني رياضي",
+      "passed": true,
+      "total_score": 100.0,
+      "criteria_scores": {
+        "c1_forbidden_terms_compliance": 100.0,
+        "c2_mandatory_terms_coverage": 100.0,
+        "c3_socratic_scaffolding": 100.0,
+        "c4_onec_bac_grounding": 100.0,
+        "c5_active_recall_spaced_schedule": 100.0
+      },
+      "diagnostics": {
+        "forbidden_terms_flagged": [],
+        "mandatory_terms_matched": [
+          "الجملة المدروسة",
+          "المرجع العطالي",
+          "القانون الثاني لنيوتن",
+          "المعادلة التفاضلية",
+          "الشروط الابتدائية"
+        ],
+        "mandatory_terms_missing": [],
+        "bac_paired_citations": []
+      },
+      "baseline_score": 0.0,
+      "skill_gain": 100.0
+    },
+    {
+      "id": "BENCH-ARAB-04",
+      "subject": "اللغة العربية وآدابها",
+      "stream": "شعبة آداب وفلسفة ولغات أجنبية",
+      "passed": true,
+      "total_score": 100.0,
+      "criteria_scores": {
+        "c1_forbidden_terms_compliance": 100.0,
+        "c2_mandatory_terms_coverage": 100.0,
+        "c3_socratic_scaffolding": 100.0,
+        "c4_onec_bac_grounding": 100.0,
+        "c5_active_recall_spaced_schedule": 100.0
+      },
+      "diagnostics": {
+        "forbidden_terms_flagged": [],
+        "mandatory_terms_matched": [
+          "البناء الفكري",
+          "قواعد التلخيص",
+          "الحذف",
+          "التعميم",
+          "إعادة البناء",
+          "ربع النص",
+          "ثلث النص"
+        ],
+        "mandatory_terms_missing": [],
+        "bac_paired_citations": []
+      },
+      "baseline_score": 0.0,
+      "skill_gain": 100.0
+    },
+    {
+      "id": "BENCH-PHIL-05",
+      "subject": "الفلسفة",
+      "stream": "شعبة آداب وفلسفة",
+      "passed": true,
+      "total_score": 96.4,
+      "criteria_scores": {
+        "c1_forbidden_terms_compliance": 100.0,
+        "c2_mandatory_terms_coverage": 85.7,
+        "c3_socratic_scaffolding": 100.0,
+        "c4_onec_bac_grounding": 100.0,
+        "c5_active_recall_spaced_schedule": 100.0
+      },
+      "diagnostics": {
+        "forbidden_terms_flagged": [],
+        "mandatory_terms_matched": [
+          "استقصاء بالوضع",
+          "طرح المشكلة",
+          "محاولة حل المشكلة",
+          "الدفاع عنها بحجج شخصية",
+          "نقد خصوم الأطروحة",
+          "حل المشكلة"
+        ],
+        "mandatory_terms_missing": [
+          "عرض منطق الأطروحة"
+        ],
+        "bac_paired_citations": []
+      },
+      "baseline_score": 25.0,
+      "skill_gain": 71.4
+    },
+    {
+      "id": "BENCH-FR-06",
+      "subject": "اللغة الفرنسية",
+      "stream": "لكافة الشعب",
+      "passed": true,
+      "total_score": 100.0,
+      "criteria_scores": {
+        "c1_forbidden_terms_compliance": 100.0,
+        "c2_mandatory_terms_coverage": 100.0,
+        "c3_socratic_scaffolding": 100.0,
+        "c4_onec_bac_grounding": 100.0,
+        "c5_active_recall_spaced_schedule": 100.0
+      },
+      "diagnostics": {
+        "forbidden_terms_flagged": [],
+        "mandatory_terms_matched": [
+          "Compte-rendu objectif",
+          "Amorce",
+          "Résumé des idées",
+          "Verbes introducteurs",
+          "Discours indirect"
+        ],
+        "mandatory_terms_missing": [],
+        "bac_paired_citations": [
+          "BAC_Archives/اللغة_الفرنسية/الشعب_العلمية_والتقنية_المشتركة/BAC_2020_french_Scientifique_Corrigé.pdf",
+          "BAC_Archives/اللغة_الفرنسية/عام/BAC_2020_french_All_Corrigé.pdf"
+        ]
+      },
+      "baseline_score": 0.0,
+      "skill_gain": 100.0
+    },
+    {
+      "id": "BENCH-HIST-07",
+      "subject": "التاريخ والجغرافيا",
+      "stream": "شعبة تسيير واقتصاد",
+      "passed": true,
+      "total_score": 100.0,
+      "criteria_scores": {
+        "c1_forbidden_terms_compliance": 100.0,
+        "c2_mandatory_terms_coverage": 100.0,
+        "c3_socratic_scaffolding": 100.0,
+        "c4_onec_bac_grounding": 100.0,
+        "c5_active_recall_spaced_schedule": 100.0
+      },
+      "diagnostics": {
+        "forbidden_terms_flagged": [],
+        "mandatory_terms_matched": [
+          "التكرار المتباعد",
+          "منحنى النسيان",
+          "قصر الذاكرة",
+          "أثر الرسم",
+          "فترات الراحة المصغرة"
+        ],
+        "mandatory_terms_missing": [],
+        "bac_paired_citations": []
+      },
+      "baseline_score": 40.0,
+      "skill_gain": 60.0
+    },
+    {
+      "id": "BENCH-UNIV-08",
+      "subject": "التعليم الجامعي الهندسي",
+      "stream": "Sciences et Technologies (ST) / Électronique & Automatique",
+      "passed": true,
+      "total_score": 96.9,
+      "criteria_scores": {
+        "c1_forbidden_terms_compliance": 100.0,
+        "c2_mandatory_terms_coverage": 87.5,
+        "c3_socratic_scaffolding": 100.0,
+        "c4_onec_bac_grounding": 100.0,
+        "c5_active_recall_spaced_schedule": 100.0
+      },
+      "diagnostics": {
+        "forbidden_terms_flagged": [],
+        "mandatory_terms_matched": [
+          "CDIO",
+          "Conceive",
+          "Design",
+          "Implement",
+          "Operate",
+          "Cahier des charges",
+          "Compte-rendu TP"
+        ],
+        "mandatory_terms_missing": [
+          "Incertitudes"
+        ],
+        "bac_paired_citations": []
+      },
+      "baseline_score": 55.0,
+      "skill_gain": 41.9
+    },
+    {
+      "id": "BENCH-ISLAMIC-09",
+      "subject": "العلوم الإسلامية",
+      "stream": "جميع الشعب المشتركة",
+      "passed": true,
+      "total_score": 100.0,
+      "criteria_scores": {
+        "c1_forbidden_terms_compliance": 100.0,
+        "c2_mandatory_terms_coverage": 100.0,
+        "c3_socratic_scaffolding": 100.0,
+        "c4_onec_bac_grounding": 100.0,
+        "c5_active_recall_spaced_schedule": 100.0
+      },
+      "diagnostics": {
+        "forbidden_terms_flagged": [],
+        "mandatory_terms_matched": [
+          "المقاصد الضرورية",
+          "حفظ الدين",
+          "حفظ النفس",
+          "ربا الفضل",
+          "ربا النسيئة",
+          "الحكم الشرعي",
+          "الفائدة"
+        ],
+        "mandatory_terms_missing": [],
+        "bac_paired_citations": []
+      },
+      "baseline_score": 25.0,
+      "skill_gain": 75.0
+    },
+    {
+      "id": "BENCH-TECH-10",
+      "subject": "الهندسة الميكانيكية",
+      "stream": "شعبة تقني رياضي",
+      "passed": true,
+      "total_score": 100.0,
+      "criteria_scores": {
+        "c1_forbidden_terms_compliance": 100.0,
+        "c2_mandatory_terms_coverage": 100.0,
+        "c3_socratic_scaffolding": 100.0,
+        "c4_onec_bac_grounding": 100.0,
+        "c5_active_recall_spaced_schedule": 100.0
+      },
+      "diagnostics": {
+        "forbidden_terms_flagged": [],
+        "mandatory_terms_matched": [
+          "SADT",
+          "النشاط الوظيفي A-0",
+          "المادة الأولية",
+          "القيمة المضافة",
+          "التوافق",
+          "الخلوص الأقصى",
+          "الخلوص الأدنى"
+        ],
+        "mandatory_terms_missing": [],
+        "bac_paired_citations": []
+      },
+      "baseline_score": 28.6,
+      "skill_gain": 71.4
+    },
+    {
+      "id": "BENCH-GESTION-11",
+      "subject": "تسيير محاسبي ومالي",
+      "stream": "شعبة تسيير واقتصاد",
+      "passed": true,
+      "total_score": 100.0,
+      "criteria_scores": {
+        "c1_forbidden_terms_compliance": 100.0,
+        "c2_mandatory_terms_coverage": 100.0,
+        "c3_socratic_scaffolding": 100.0,
+        "c4_onec_bac_grounding": 100.0,
+        "c5_active_recall_spaced_schedule": 100.0
+      },
+      "diagnostics": {
+        "forbidden_terms_flagged": [],
+        "mandatory_terms_matched": [
+          "الميزانية الوظيفية",
+          "النظام المحاسبي المالي SCF",
+          "FRNG",
+          "BFR",
+          "TN",
+          "الموارد الثابتة",
+          "الاستخدامات الثابتة"
+        ],
+        "mandatory_terms_missing": [],
+        "bac_paired_citations": []
+      },
+      "baseline_score": 25.0,
+      "skill_gain": 75.0
+    },
+    {
+      "id": "BENCH-MATH-TECH-12",
+      "subject": "الرياضيات",
+      "stream": "شعبة رياضيات وتقني رياضي",
+      "passed": true,
+      "total_score": 95.8,
+      "criteria_scores": {
+        "c1_forbidden_terms_compliance": 100.0,
+        "c2_mandatory_terms_coverage": 83.3,
+        "c3_socratic_scaffolding": 100.0,
+        "c4_onec_bac_grounding": 100.0,
+        "c5_active_recall_spaced_schedule": 100.0
+      },
+      "diagnostics": {
+        "forbidden_terms_flagged": [],
+        "mandatory_terms_matched": [
+          "مبرهنة بيزو",
+          "مبرهنة غوص",
+          "PGCD",
+          "خوارزمية إقليدس",
+          "الموافقات في Z"
+        ],
+        "mandatory_terms_missing": [
+          "القسمة الإقليدية"
+        ],
+        "bac_paired_citations": []
+      },
+      "baseline_score": 25.0,
+      "skill_gain": 70.8
+    },
+    {
+      "id": "BENCH-ENG-13",
+      "subject": "اللغة الإنجليزية",
+      "stream": "جميع الشعب المشتركة",
+      "passed": true,
+      "total_score": 95.8,
+      "criteria_scores": {
+        "c1_forbidden_terms_compliance": 100.0,
+        "c2_mandatory_terms_coverage": 83.3,
+        "c3_socratic_scaffolding": 100.0,
+        "c4_onec_bac_grounding": 100.0,
+        "c5_active_recall_spaced_schedule": 100.0
+      },
+      "diagnostics": {
+        "forbidden_terms_flagged": [],
+        "mandatory_terms_matched": [
+          "Topic sentence",
+          "Topic 1 Guided",
+          "Ethics in Business",
+          "Counterfeiting",
+          "Connectors"
+        ],
+        "mandatory_terms_missing": [
+          "Conclusion"
+        ],
+        "bac_paired_citations": []
+      },
+      "baseline_score": 29.2,
+      "skill_gain": 66.6
+    },
+    {
+      "id": "BENCH-UNIV-PFE-14",
+      "subject": "التعليم الجامعي والمدارس العليا",
+      "stream": "جميع الميادين الجامعية",
+      "passed": true,
+      "total_score": 100.0,
+      "criteria_scores": {
+        "c1_forbidden_terms_compliance": 100.0,
+        "c2_mandatory_terms_coverage": 100.0,
+        "c3_socratic_scaffolding": 100.0,
+        "c4_onec_bac_grounding": 100.0,
+        "c5_active_recall_spaced_schedule": 100.0
+      },
+      "diagnostics": {
+        "forbidden_terms_flagged": [],
+        "mandatory_terms_matched": [
+          "القرار الوزاري 1082",
+          "MESRS",
+          "نسبة التشابه",
+          "أقل من 10%",
+          "IEEE",
+          "APA",
+          "إعادة الصياغة Paraphrase"
+        ],
+        "mandatory_terms_missing": [],
+        "bac_paired_citations": []
+      },
+      "baseline_score": 55.0,
+      "skill_gain": 45.0
+    }
+  ]
+}

@@ -1,0 +1,198 @@
+[
+  {
+    "id": "BENCH-MATH-01",
+    "subject": "الرياضيات",
+    "level": "ثانوي - بكالوريا",
+    "stream": "شعبة علوم تجريبية",
+    "scenario": "سؤال تلميذ حول إثبات وجود حل وحيد للمعادلة f(x) = 0 على مجال معطى",
+    "student_query": "أستاذ كيف أبرهن أن المعادلة f(x) = 0 تقبل حلاً وحيداً ألفا على المجال [1, 2] وما هو التفسير البياني لذلك؟",
+    "expected_criteria": {
+      "mandatory_terms": ["مبرهنة القيم المتوسطة", "م.ق.م", "مستمرة", "رتيبة تماماً", "يقطع محور الفواصل"],
+      "forbidden_terms": ["نظرية القيمة الوسطية", "نظرية القيمة الوسطى"],
+      "must_include_active_recall": true,
+      "must_include_bareme": true
+    }
+  },
+  {
+    "id": "BENCH-SCI-02",
+    "subject": "علوم الطبيعة والحياة",
+    "level": "ثانوي - بكالوريا",
+    "stream": "شعبة علوم تجريبية",
+    "scenario": "سؤال تلميذ حول استغلال وثيقة تضم منحنى تغيرات نشاط إنزيمي",
+    "student_query": "كيف أتعامل مع الوثيقة 1 التي تبين تغير سرعة التفاعل بدلالة تركيز الركيزة؟",
+    "expected_criteria": {
+      "mandatory_terms": ["المسعى العلمي", "استغلال الوثيقة", "التعريف بالوثيقة", "التحليل", "الاستنتاج"],
+      "forbidden_terms": ["قراءة المعطيات السطحية", "خاتمة سريعة دون استنتاج"],
+      "must_include_active_recall": true,
+      "must_include_bareme": true
+    }
+  },
+  {
+    "id": "BENCH-PHYS-03",
+    "subject": "العلوم الفيزيائية",
+    "level": "ثانوي - بكالوريا",
+    "stream": "شعبة رياضيات وتقني رياضي",
+    "scenario": "إيجاد المعادلة التفاضلية لحركة مركز عطالة قذيفة في حقل الجاذبية الأرضية",
+    "student_query": "كيف أجد المعادلة التفاضلية للسرعة على المحورين Ox و Oz لحركة قذيفة؟",
+    "expected_criteria": {
+      "mandatory_terms": ["الجملة المدروسة", "المرجع العطالي", "القانون الثاني لنيوتن", "المعادلة التفاضلية", "الشروط الابتدائية"],
+      "forbidden_terms": ["معادلة الحركة دون مرجع عطالي"],
+      "must_include_active_recall": true,
+      "must_include_bareme": true
+    }
+  },
+  {
+    "id": "BENCH-ARAB-04",
+    "subject": "اللغة العربية وآدابها",
+    "level": "ثانوي - بكالوريا",
+    "stream": "شعبة آداب وفلسفة ولغات أجنبية",
+    "scenario": "تلخيص نص البناء الفكري في قصيدة من شعر المنفى أو شعر القضية الفلسطينية",
+    "student_query": "أريد تلخيص مضمون القصيدة، ما هي الشروط التي يطلبها المصحح في البكالوريا؟",
+    "expected_criteria": {
+      "mandatory_terms": ["البناء الفكري", "قواعد التلخيص", "الحذف", "التعميم", "إعادة البناء", "ربع النص", "ثلث النص"],
+      "forbidden_terms": ["النسخ الحرفي", "تعبير حر دون تقييد"],
+      "must_include_active_recall": true,
+      "must_include_bareme": true
+    }
+  },
+  {
+    "id": "BENCH-PHIL-05",
+    "subject": "الفلسفة",
+    "level": "ثانوي - بكالوريا",
+    "stream": "شعبة آداب وفلسفة",
+    "scenario": "كتابة مقال فلسفي بطريقة الاستقصاء بالوضع حول مشروعية الفرضية العلمية",
+    "student_query": "دافع عن الأطروحة القائلة: 'إن الفرضية العلمية خطوة لا غنى عنها في المنهج التجريبي'. ما هي المنهجية المتبعة؟",
+    "expected_criteria": {
+      "mandatory_terms": ["استقصاء بالوضع", "طرح المشكلة", "محاولة حل المشكلة", "عرض منطق الأطروحة", "الدفاع عنها بحجج شخصية", "نقد خصوم الأطروحة", "حل المشكلة"],
+      "forbidden_terms": ["الطريقة الجدلية مع نقيض الأطروحة كطرف مساوٍ"],
+      "must_include_active_recall": true,
+      "must_include_bareme": true
+    }
+  },
+  {
+    "id": "BENCH-FR-06",
+    "subject": "اللغة الفرنسية",
+    "level": "ثانوي - بكالوريا",
+    "stream": "لكافة الشعب",
+    "scenario": "كتابة تقرير موضوعي لنص تاريخي (Compte-rendu objectif)",
+    "student_query": "Comment rédiger un compte-rendu objectif d'un texte d'histoire au BAC ?",
+    "expected_criteria": {
+      "mandatory_terms": ["Compte-rendu objectif", "Amorce", "Résumé des idées", "Verbes introducteurs", "Discours indirect"],
+      "forbidden_terms": ["Copier-coller", "Critique personnelle dans le compte-rendu objectif"],
+      "must_include_active_recall": true,
+      "must_include_bareme": true
+    }
+  },
+  {
+    "id": "BENCH-HIST-07",
+    "subject": "التاريخ والجغرافيا",
+    "level": "ثانوي - بكالوريا",
+    "stream": "شعبة تسيير واقتصاد",
+    "scenario": "حفظ واسترجاع تواريخ وأزمات الحرب الباردة",
+    "student_query": "أجد صعوبة كبيرة في حفظ تواريخ الحرب الباردة والخلط بين الأزمات، كيف أحفظها دون نسيان؟",
+    "expected_criteria": {
+      "mandatory_terms": ["التكرار المتباعد", "منحنى النسيان", "قصر الذاكرة", "أثر الرسم", "فترات الراحة المصغرة"],
+      "forbidden_terms": ["الحفظ الآلي السطحي دون ربط مكاني"],
+      "must_include_active_recall": true,
+      "must_include_bareme": false
+    }
+  },
+  {
+    "id": "BENCH-UNIV-08",
+    "subject": "التعليم الجامعي الهندسي",
+    "level": "جامعي - طور ليسانس / ماستر",
+    "stream": "Sciences et Technologies (ST) / Électronique & Automatique",
+    "scenario": "إعداد مشروع تطبيقي وفق منهجية CDIO العالمية المعتمدة",
+    "student_query": "لدينا مشروع تصميم دارة تحكم في محرك كهربائي DC، كيف نهيكل العمل وفق معايير CDIO والتقرير المخبري؟",
+    "expected_criteria": {
+      "mandatory_terms": ["CDIO", "Conceive", "Design", "Implement", "Operate", "Cahier des charges", "Compte-rendu TP", "Incertitudes"],
+      "forbidden_terms": ["تنفيذ عشوائي دون دفتر شروط"],
+      "must_include_active_recall": false,
+      "must_include_bareme": false
+    }
+  },
+  {
+    "id": "BENCH-ISLAMIC-09",
+    "subject": "العلوم الإسلامية",
+    "level": "ثانوي - بكالوريا",
+    "stream": "جميع الشعب المشتركة",
+    "scenario": "استخراج مقاصد الشريعة والفرق بين ربا الفضل وربا النسيئة وصياغة الأحكام والفوائد",
+    "student_query": "كيف أستخرج الأحكام والفوائد من الآيات دون أن يخصم لي المصحح، وما هو الفرق بين ربا الفضل والنسيئة؟",
+    "expected_criteria": {
+      "mandatory_terms": ["المقاصد الضرورية", "حفظ الدين", "حفظ النفس", "ربا الفضل", "ربا النسيئة", "الحكم الشرعي", "الفائدة"],
+      "forbidden_terms": ["الدروس المستفادة / العبر العامة"],
+      "must_include_active_recall": true,
+      "must_include_bareme": true
+    }
+  },
+  {
+    "id": "BENCH-TECH-10",
+    "subject": "الهندسة الميكانيكية",
+    "level": "ثانوي - بكالوريا",
+    "stream": "شعبة تقني رياضي",
+    "scenario": "التحليل الوظيفي للمنظومات الآلية وحساب التوافقات والتفاوتات البعدية",
+    "student_query": "كيف أنجز دراسة التحليل الوظيفي بنظام SADT وأحسب التوافق H7/g6 للمحور والجوف؟",
+    "expected_criteria": {
+      "mandatory_terms": ["SADT", "النشاط الوظيفي A-0", "المادة الأولية", "القيمة المضافة", "التوافق", "الخلوص الأقصى", "الخلوص الأدنى"],
+      "forbidden_terms": ["حسابات ميكانيكية عامة دون جدول التوافقات"],
+      "must_include_active_recall": true,
+      "must_include_bareme": true
+    }
+  },
+  {
+    "id": "BENCH-GESTION-11",
+    "subject": "تسيير محاسبي ومالي",
+    "level": "ثانوي - بكالوريا",
+    "stream": "شعبة تسيير واقتصاد",
+    "scenario": "إعداد الميزانية الوظيفية وحساب مؤشرات التوازن المالي",
+    "student_query": "كيف أحسب رأس المال العامل الصافي الإجمالي FRNG والخزينة الصافية TN وما دلالتهما المالية؟",
+    "expected_criteria": {
+      "mandatory_terms": ["الميزانية الوظيفية", "النظام المحاسبي المالي SCF", "FRNG", "BFR", "TN", "الموارد الثابتة", "الاستخدامات الثابتة"],
+      "forbidden_terms": ["الميزانية العمومية القديمة دون توازن وظيفي"],
+      "must_include_active_recall": true,
+      "must_include_bareme": true
+    }
+  },
+  {
+    "id": "BENCH-MATH-TECH-12",
+    "subject": "الرياضيات",
+    "level": "ثانوي - بكالوريا",
+    "stream": "شعبة رياضيات وتقني رياضي",
+    "scenario": "حل معادلة ديوفانتية في Z وتطبيق مبرهنة غوص وخوارزمية إقليدس",
+    "student_query": "كيف أحل المعادلة 7x - 5y = 3 في مجموعة الأعداد الصحيحة Z باستعمال مبرهنة بيزو وغوص؟",
+    "expected_criteria": {
+      "mandatory_terms": ["مبرهنة بيزو", "مبرهنة غوص", "PGCD", "خوارزمية إقليدس", "القسمة الإقليدية", "الموافقات في Z"],
+      "forbidden_terms": ["طرق التخمين العشوائي دون برهان نظري"],
+      "must_include_active_recall": true,
+      "must_include_bareme": true
+    }
+  },
+  {
+    "id": "BENCH-ENG-13",
+    "subject": "اللغة الإنجليزية",
+    "level": "ثانوي - بكالوريا",
+    "stream": "جميع الشعب المشتركة",
+    "scenario": "كتابة تعبير موجه حول مكافحة الفساد وأخلاقيات العمل (Ethics in Business)",
+    "student_query": "How to structure the guided essay on fighting corruption and counterfeiting for BAC?",
+    "expected_criteria": {
+      "mandatory_terms": ["Topic sentence", "Topic 1 Guided", "Ethics in Business", "Counterfeiting", "Connectors", "Conclusion"],
+      "forbidden_terms": ["Informal slang", "Copied paragraph"],
+      "must_include_active_recall": true,
+      "must_include_bareme": true
+    }
+  },
+  {
+    "id": "BENCH-UNIV-PFE-14",
+    "subject": "التعليم الجامعي والمدارس العليا",
+    "level": "جامعي - ماستر / دكتوراه",
+    "stream": "جميع الميادين الجامعية",
+    "scenario": "تدقيق هيكل مذكرة التخرج ومكافحة الانتحال والتوثيق وفق القرار الوزاري 1082",
+    "student_query": "أريد تقديم مسودة مذكرتي، ما هي الشروط الإلزامية التي يفرضها القرار 1082 لوزارة التعليم العالي لتجنب الإقصاء بسبب السرقة العلمية؟",
+    "expected_criteria": {
+      "mandatory_terms": ["القرار الوزاري 1082", "MESRS", "نسبة التشابه", "أقل من 10%", "IEEE", "APA", "إعادة الصياغة Paraphrase"],
+      "forbidden_terms": ["نسخ حرفي دون عزو", "تجاهل المصادر"],
+      "must_include_active_recall": false,
+      "must_include_bareme": false
+    }
+  }
+]
