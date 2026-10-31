@@ -1,13 +1,14 @@
-# 🇩🇿 Algerian AI Pedagogy & BAC Governance Skill
+# 🇩🇿 BAC-Guardian: Algerian National AI Pedagogy & BAC Governance Skill
 ### إطار الحوكمة البيداغوجية والذكاء الاصطناعي للمنهاج والتعليم الجزائري
 
-[![BAC Archives](https://img.shields.io/badge/BAC%20Archives-2017--2026%20(659%20PDFs)-006233.svg)](./BAC_Archives)
-[![OCR Status](https://img.shields.io/badge/OCR%20Indexed-100%25%20Complete-D52B1E.svg)](./BAC_Archives/bac_text_corpus.jsonl)
-[![ONEC Compliance](https://img.shields.io/badge/ONEC%20Rubrics-2%2C589%20Criteria-gold.svg)](./BAC_Archives/onec_extracted_rubrics.json)
-[![Pedagogical Foundations](https://img.shields.io/badge/Cognitive%20Science-31%20Peer--Reviewed%20Papers-blue.svg)](./Pedagogical_Science_Foundations)
-[![License](https://img.shields.io/badge/License-MIT-lightgrey.svg)](LICENSE)
+[![Project Name](https://img.shields.io/badge/Project-BAC--Guardian-1f883d.svg?style=flat-square&logo=github)](https://github.com/mohammedouassimbentebba-collab/algeria-ai-pedagogy)
+[![BAC Archives](https://img.shields.io/badge/BAC%20Archives-2017--2026%20(659%20PDFs)-006233.svg?style=flat-square)](./BAC_Archives)
+[![OCR Status](https://img.shields.io/badge/OCR%20Indexed-100%25%20Complete-D52B1E.svg?style=flat-square)](./BAC_Archives/bac_text_corpus.jsonl)
+[![ONEC Compliance](https://img.shields.io/badge/ONEC%20Rubrics-2%2C589%20Criteria-gold.svg?style=flat-square)](./BAC_Archives/onec_extracted_rubrics.json)
+[![Pedagogical Foundations](https://img.shields.io/badge/Cognitive%20Science-31%20Peer--Reviewed%20Papers-blue.svg?style=flat-square)](./Pedagogical_Science_Foundations)
+[![License](https://img.shields.io/badge/License-MIT-lightgrey.svg?style=flat-square)](LICENSE)
 
-An enterprise-grade pedagogical framework and AI Agent Skill that constrains Large Language Models (LLMs) and autonomous agents to strictly adhere to official **Algerian Ministry of National Education (MEN)** and **National Examinations and Contests Office (ONEC)** curricula, scoring rubrics, standardized terminology, and cognitive science foundations.
+**BAC-Guardian** is an enterprise-grade pedagogical alignment framework and AI Agent Skill that constrains Large Language Models (LLMs) and autonomous agents to strictly adhere to official **Algerian Ministry of National Education (MEN)** and **National Examinations and Contests Office (ONEC)** curricula, scoring rubrics, standardized terminology, and cognitive science foundations.
 
 ---
 
