@@ -45,6 +45,7 @@
 - **دليل علوم الطبيعة والحياة:** `.agents/skills/algeria-education-system/references/natural_sciences_methodology.md`
 - **دليل العلوم الفيزيائية والكيميائية:** `.agents/skills/algeria-education-system/references/physics_chemistry_methodology.md`
 - **محرك قراءة وتمثيل واستثمار البيانات والجداول والمنحنيات البيانية:** `.agents/skills/algeria-education-system/references/scientific_graph_and_data_engine.md`
+- **الأطلس الشامل للمنحنيات البيانية وقواعد السلم والاستثمار الفيزيائي:** `.agents/skills/algeria-education-system/references/scientific_bac_graph_atlas_and_scale_guide.md`
 - **دليل الفلسفة (المنهجية الرسمية وقوالب المقالات):** `.agents/skills/algeria-education-system/references/philosophy_methodology.md`
 - **المشاريع الفلسفية العربية والإسلامية الأصيلة في البكالوريا الجزائرية:** `.agents/skills/algeria-education-system/references/authentic_arab_islamic_philosophical_projects.md`
 - **دليل اللغات الأجنبية (فرنسية، إنجليزية، ألمانية):** `.agents/skills/algeria-education-system/references/foreign_languages_methodology.md`

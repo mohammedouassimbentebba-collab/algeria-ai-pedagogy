@@ -42,6 +42,9 @@ description: "مرجع بيداغوجي شامل ومنهجية إجابة مع�
    - `python scripts/arabic_pedagogy_engine.py --demo`
    - فحص بحور الشعر: `python scripts/arabic_pedagogy_engine.py --prosody "صدر البيت وعجزه"`
    - تدقيق القواعد النحوية الصارمة: `python scripts/arabic_pedagogy_engine.py --grammar "العبارة المراد إعرابها"`
+6. **محرك البيانات والتمثيلات البيانية في الفيزياء والكيمياء (حساب السلم والمطابقة للوحدات الست):**
+   - `python scripts/physics_graph_data_engine.py --demo`
+   - حساب السلم الأمثل لورقة مليمترية: `python scripts/physics_graph_data_engine.py --scale 50.0 3.5`
 
 ---
 
@@ -85,6 +88,7 @@ description: "مرجع بيداغوجي شامل ومنهجية إجابة مع�
 - **علوم الطبيعة والحياة:** [natural_sciences_methodology.md](./references/natural_sciences_methodology.md)
 - **العلوم الفيزيائية والكيميائية:** [physics_chemistry_methodology.md](./references/physics_chemistry_methodology.md)
 - **محرك قراءة وتمثيل واستثمار البيانات والجداول والمنحنيات:** [scientific_graph_and_data_engine.md](./references/scientific_graph_and_data_engine.md)
+- **الأطلس الشامل للمنحنيات البيانية وقواعد السلم والاستثمار:** [scientific_bac_graph_atlas_and_scale_guide.md](./references/scientific_bac_graph_atlas_and_scale_guide.md)
 - **الفلسفة (المنهجية الرسمية وقوالب المقالات):** [philosophy_methodology.md](./references/philosophy_methodology.md)
 - **المشاريع الفلسفية العربية والإسلامية الأصيلة:** [authentic_arab_islamic_philosophical_projects.md](./references/authentic_arab_islamic_philosophical_projects.md)
 - **اللغات الأجنبية (فرنسية، إنجليزية، ألمانية):** [foreign_languages_methodology.md](./references/foreign_languages_methodology.md)
