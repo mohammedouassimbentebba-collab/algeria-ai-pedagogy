@@ -38,6 +38,10 @@ description: "مرجع بيداغوجي شامل ومنهجية إجابة مع�
    - `python scripts/higher_ed_cdio_engine.py --demo`
 4. **محرك الشرح (PCK) والتلخيص المعرفي وفحص النسخ الحرفي (3-gram Audit):**
    - `python scripts/instruction_summarization_engine.py --summarize "..."`
+5. **محرك البيداغوجيا واللسانيات العربية المتقدم (العروض، النحو الوزاري، والاتساق النصي):**
+   - `python scripts/arabic_pedagogy_engine.py --demo`
+   - فحص بحور الشعر: `python scripts/arabic_pedagogy_engine.py --prosody "صدر البيت وعجزه"`
+   - تدقيق القواعد النحوية الصارمة: `python scripts/arabic_pedagogy_engine.py --grammar "العبارة المراد إعرابها"`
 
 ---
 
@@ -76,6 +80,8 @@ description: "مرجع بيداغوجي شامل ومنهجية إجابة مع�
 - **الرياضيات:** [mathematics_methodology.md](./references/mathematics_methodology.md)
 - **اللغة العربية وآدابها (المنهجية الرسمية):** [arabic_methodology.md](./references/arabic_methodology.md)
 - **المنظومة الموسعة للغة العربية والنقد واستيعاب الخطاب:** [advanced_arabic_linguistic_and_literary_system.md](./references/advanced_arabic_linguistic_and_literary_system.md)
+- **محرك التفكيك العروضي والخوارزمي الصوتي للشعر العربي:** [arabic_prosody_and_phonology_engine.md](./references/arabic_prosody_and_phonology_engine.md)
+- **الموسوعة الوزارية الشاملة للإعراب والبناء النحوي:** [arabic_grammar_syntax_onec_mastery.md](./references/arabic_grammar_syntax_onec_mastery.md)
 - **علوم الطبيعة والحياة:** [natural_sciences_methodology.md](./references/natural_sciences_methodology.md)
 - **العلوم الفيزيائية والكيميائية:** [physics_chemistry_methodology.md](./references/physics_chemistry_methodology.md)
 - **محرك قراءة وتمثيل واستثمار البيانات والجداول والمنحنيات:** [scientific_graph_and_data_engine.md](./references/scientific_graph_and_data_engine.md)

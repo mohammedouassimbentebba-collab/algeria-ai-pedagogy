@@ -40,6 +40,8 @@
 - **دليل الرياضيات:** `.agents/skills/algeria-education-system/references/mathematics_methodology.md`
 - **دليل اللغة العربية وآدابها (المنهجية الرسمية):** `.agents/skills/algeria-education-system/references/arabic_methodology.md`
 - **المنظومة الموسعة للغة العربية وآدابها والنقد والبلاغة واستيعاب الخطاب:** `.agents/skills/algeria-education-system/references/advanced_arabic_linguistic_and_literary_system.md`
+- **محرك التفكيك العروضي والخوارزمي الصوتي للشعر العربي:** `.agents/skills/algeria-education-system/references/arabic_prosody_and_phonology_engine.md`
+- **الموسوعة الوزارية الشاملة للإعراب والبناء النحوي:** `.agents/skills/algeria-education-system/references/arabic_grammar_syntax_onec_mastery.md`
 - **دليل علوم الطبيعة والحياة:** `.agents/skills/algeria-education-system/references/natural_sciences_methodology.md`
 - **دليل العلوم الفيزيائية والكيميائية:** `.agents/skills/algeria-education-system/references/physics_chemistry_methodology.md`
 - **محرك قراءة وتمثيل واستثمار البيانات والجداول والمنحنيات البيانية:** `.agents/skills/algeria-education-system/references/scientific_graph_and_data_engine.md`
