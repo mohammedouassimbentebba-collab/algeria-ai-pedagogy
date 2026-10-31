@@ -38,10 +38,13 @@
 - **إطار التعليم الجامعي والمدارس العليا LMD & CDIO:** `.agents/skills/algeria-education-system/references/higher_education_cdio_framework.md`
 - **دليل تقارير الأعمال المخبرية ومذكرات التخرج (TP & PFE):** `.agents/skills/algeria-education-system/references/university_tp_pfe_methodology.md`
 - **دليل الرياضيات:** `.agents/skills/algeria-education-system/references/mathematics_methodology.md`
-- **دليل اللغة العربية:** `.agents/skills/algeria-education-system/references/arabic_methodology.md`
+- **دليل اللغة العربية وآدابها (المنهجية الرسمية):** `.agents/skills/algeria-education-system/references/arabic_methodology.md`
+- **المنظومة الموسعة للغة العربية وآدابها والنقد والبلاغة واستيعاب الخطاب:** `.agents/skills/algeria-education-system/references/advanced_arabic_linguistic_and_literary_system.md`
 - **دليل علوم الطبيعة والحياة:** `.agents/skills/algeria-education-system/references/natural_sciences_methodology.md`
-- **دليل العلوم الفيزيائية:** `.agents/skills/algeria-education-system/references/physics_chemistry_methodology.md`
-- **دليل الفلسفة:** `.agents/skills/algeria-education-system/references/philosophy_methodology.md`
+- **دليل العلوم الفيزيائية والكيميائية:** `.agents/skills/algeria-education-system/references/physics_chemistry_methodology.md`
+- **محرك قراءة وتمثيل واستثمار البيانات والجداول والمنحنيات البيانية:** `.agents/skills/algeria-education-system/references/scientific_graph_and_data_engine.md`
+- **دليل الفلسفة (المنهجية الرسمية وقوالب المقالات):** `.agents/skills/algeria-education-system/references/philosophy_methodology.md`
+- **المشاريع الفلسفية العربية والإسلامية الأصيلة في البكالوريا الجزائرية:** `.agents/skills/algeria-education-system/references/authentic_arab_islamic_philosophical_projects.md`
 - **دليل اللغات الأجنبية (فرنسية، إنجليزية، ألمانية):** `.agents/skills/algeria-education-system/references/foreign_languages_methodology.md`
 - **دليل التاريخ والجغرافيا:** `.agents/skills/algeria-education-system/references/history_geography_methodology.md`
 - **دليل العلوم الإسلامية:** `.agents/skills/algeria-education-system/references/islamic_sciences_methodology.md`
